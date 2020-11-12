@@ -1,0 +1,96 @@
+/* Split the screen in half */
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+
+.left {
+  left:0;
+  background-color: #FFECF8 ;
+  border: 10px outset black;
+  padding-left: 300px;
+}
+
+/* Control the right side */
+
+.right {
+  right: 0;
+  background-color:white;
+  background:url(login.jpg);
+  background-position:center;
+  background-repeat: no-repeat;
+  border: 10px outset black;
+
+}
+
+/* If you want the content centered horizontally and vertically */
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 33%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+
+.centered img {
+  width: 700px;
+}
+
+h1 {
+  color:black; 
+  text-align: center;
+  text-decoration: underline;
+  font-size: 60px;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+p {
+  color: black;
+  text-align: center;
+  font-size: 23px;
+  font-family: Apple Chancery, cursive;
+}
+
+.rbutton {
+  text-align:center;
+  font-size: 24px;
+  font-family:URW Chancery L, cursive;
+}
+
+form {
+  color:black;
+  text-align: center;
+  font-size: 25px;
+}
+
+.bstyle {
+  border:1px solid black;
+  border-radius: 10px;
+  font-size:20px;
+}
+
+a {
+  color:navy;
+  text-align: center;
+  font-size:20px;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+.bustyle {
+  border:1px solid black;
+  border-radius: 10px;
+  font-size:20px;
+  font-family: Tahoma, Geneva, sans-serif;
+  background-color: lightgreen;
+}

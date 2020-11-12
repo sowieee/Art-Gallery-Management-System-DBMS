@@ -1,0 +1,76 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  width:99%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color:blue;
+}
+
+/* css for other elements in the page*/
+
+body {
+  background: url(signup.jpg);
+  background-color: whitesmoke;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color:black; 
+  text-align: center;
+  text-decoration: underline;
+  font-size: 50px;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+.pstyle {
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  font-family: Apple Chancery, cursive;
+}
+
+form {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Gill Sans, sans-serif;
+}
+
+.lstyle {
+	border: 1px solid black;
+  border-radius:10px;
+  font-size:20px;
+}
+
+button {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Gill Sans, sans-serif;
+  background-color: lightgreen;
+}
